@@ -1,0 +1,34 @@
+Arguments: 
+  /Users/jackyef/.nvm/versions/node/v14.18.1/bin/node /Users/jackyef/.nvm/versions/node/v14.18.1/bin/yarn add next @iconicicons/react
+
+PATH: 
+  /Users/jackyef/.nvm/versions/node/v14.18.1/bin:/Users/jackyef/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/jackyef/.nvm/versions/node/v14.18.1/bin:/Users/jackyef/.cargo/bin:/Users/jackyef/.fig/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ENETUNREACH 104.16.24.35:443 - Local (0.0.0.0:53647)
+      at internalConnect (net.js:934:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:452:18)
+      at emitLookup (net.js:1077:9)
+      at /Users/jackyef/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:107658:28
+      at /Users/jackyef/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:107567:13
+      at RawTask.module.exports.RawTask.call (/Users/jackyef/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:83655:19)
+      at flush (/Users/jackyef/.nvm/versions/node/v14.18.1/lib/node_modules/yarn/lib/cli.js:83737:29)
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
